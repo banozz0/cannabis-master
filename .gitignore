@@ -1,0 +1,59 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts
+.build/
+dist/
+build/
+*.zip
+*.tar
+*.tar.gz
+
+# Python (if scripts get added later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv
+
+# Node (if scripts get added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hermes runtime artifacts (must NEVER be committed — contain user state)
+.hermes/
+hermes-state/
+memories/
+auth.json
+
+# Personal grow data (CRITICAL — never commit real grow context or logs)
+references/state/grow-context.md.local
+references/state/grow-log.md.local
+*.private.md
+*.real.md
+real-grows/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
