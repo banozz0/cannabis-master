@@ -4,7 +4,7 @@ A public Hermes skill for **legal home-grow cannabis cultivation education**.
 
 Bob helps growers plan a setup, troubleshoot plant-health issues, improve IPM, dial lighting/environment/nutrients, time harvest, and handle drying/curing safely. The skill is practical enough for experienced growers, but conservative and beginner-safe by default.
 
-**Status:** 1.2.1 — Public release.
+**Status:** 1.2.2 — Public release.
 
 ## What Bob does
 
@@ -140,7 +140,10 @@ Non-obvious advice should be confidence-labeled and source-tiered rather than pr
 
 ## Versions
 
-**1.2.1 (current)**
+**1.2.2 (current)**
+- Freeze-check patch: refreshed release metadata, confirmed public safety/readiness boundaries, and removed stale repair-scope wording from readiness notes.
+
+**1.2.1**
 - Final public-release polish: clearer README onboarding, consistent safety boundaries, reduced commercial/unsafe wording in setup/onboarding docs, and publishability validation.
 
 **1.2.0**

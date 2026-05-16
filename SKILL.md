@@ -1,7 +1,7 @@
 ---
 name: cannabis-master
 description: Cannabis cultivation helper for legal home-grow contexts. Covers grow planning, genetics selection, environment, lighting, nutrients, IPM, training, harvest timing, drying, curing, trimming, troubleshooting, and beginner-friendly guidance across soil, coco, hydro, and living soil. Avoids medical advice, legal advice, trafficking/evasion, and unsafe extraction.
-version: 1.2.1
+version: 1.2.2
 author: Banozz
 license: MIT
 metadata:

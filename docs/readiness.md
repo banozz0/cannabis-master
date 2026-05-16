@@ -4,7 +4,7 @@ Current level: GitHub-ready public skill package, with caveats for live runtime 
 
 ## Known Caveats
 
-- Profile-level runtime configuration was not changed by this repair because the writable scope is limited to the `cannabis-master` skill directory.
+- This package does not modify profile-level runtime configuration; review the active Hermes profile separately before advertising runtime-specific capabilities.
 - Photo diagnosis is not verified unless the active runtime has a vision-capable model/path. If vision is unavailable, route users to text intake via `workflows/troubleshoot-grow.md`.
 
 ## Required Verification Before Production or Paid Claims
