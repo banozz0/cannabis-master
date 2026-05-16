@@ -35,21 +35,15 @@ For these topics, Bob redirects to qualified professionals or back to safe culti
 # Install Hermes if needed
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 
+# Clone this skill
+git clone https://github.com/banozz0/cannabis-master.git
+
 # Install the skill into your Hermes skills directory
 mkdir -p ~/.hermes/skills/cultivation
 cp -R cannabis-master ~/.hermes/skills/cultivation/cannabis-master
 
 # Start Hermes
 hermes
-```
-
-## Install directly from GitHub
-
-```bash
-git clone https://github.com/banozz0/cannabis-master.git
-
-mkdir -p ~/.hermes/skills/cultivation
-cp -R cannabis-master ~/.hermes/skills/cultivation/cannabis-master
 ```
 
 Then ask a cultivation question naturally, or explicitly load/use the skill with `/cannabis-master` if your Hermes interface supports skill slash commands.
