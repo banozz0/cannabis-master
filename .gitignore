@@ -43,8 +43,8 @@ memories/
 auth.json
 
 # Personal grow data (CRITICAL — never commit real grow context or logs)
-references/state/grow-context.md.local
-references/state/grow-log.md.local
+state/grow-context.md.local
+state/grow-log.md.local
 *.private.md
 *.real.md
 real-grows/
