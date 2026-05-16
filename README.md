@@ -4,7 +4,7 @@ A public Hermes skill for **legal home-grow cannabis cultivation education**.
 
 Bob helps growers plan a setup, troubleshoot plant-health issues, improve IPM, dial lighting/environment/nutrients, time harvest, and handle drying/curing safely. The skill is practical enough for experienced growers, but conservative and beginner-safe by default.
 
-**Status:** 1.2.1 — GitHub-ready public release.
+**Status:** 1.2.1 — Public release.
 
 ## What Bob does
 
@@ -43,9 +43,19 @@ cp -R cannabis-master ~/.hermes/skills/cultivation/cannabis-master
 hermes
 ```
 
+## Install directly from GitHub
+
+```bash
+git clone https://github.com/banozz0/cannabis-master.git
+
+mkdir -p ~/.hermes/skills/cultivation
+cp -R cannabis-master ~/.hermes/skills/cultivation/cannabis-master
+```
+
 Then ask a cultivation question naturally, or explicitly load/use the skill with `/cannabis-master` if your Hermes interface supports skill slash commands.
 
 If you maintain skills in a separate repository, add that directory through Hermes external skill directory configuration rather than hard-coding a profile-local path.
+
 
 ## Quick start examples
 
